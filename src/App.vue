@@ -75,16 +75,17 @@ import HelloWorld from './components/HelloWorld.vue'
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+element.style {
+    background-image: url(../images/auth-bg/bg-1.jpg);
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.bg-img {
+    position: relative;
+    border-bottom: none;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0;
 }
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
+
 </style>
